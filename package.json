@@ -1,0 +1,28 @@
+{
+  "name": "grunttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolton-S/gruntTest.git"
+  },
+  "author": "Kolton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kolton-S/gruntTest/issues"
+  },
+  "homepage": "https://github.com/Kolton-S/gruntTest#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "uglify-js": "^3.2.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
